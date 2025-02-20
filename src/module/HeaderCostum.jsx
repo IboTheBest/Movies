@@ -101,12 +101,6 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
-          {/* <Autocomplete
-            disablePortal
-            options={""}
-            sx={{ width: 300 }}
-            renderInput={(params) => <TextField {...params} label="Movie" />}
-          /> */}
         </Toolbar>
       </AppBar>
     </Box>
